@@ -1,0 +1,15 @@
+/* Landing Page wrapper styles */
+
+#Landing {
+    background-color: rgba(34, 15, 15, 0.897);
+    height: 900px;
+}
+
+
+/* Slider image Styling */
+
+#Landing #landingPage .slider-image {
+    background-image: url("../images/daniel.jpg");
+    height: '60em';
+    color: 'red'
+}

@@ -1,0 +1,125 @@
+/*Navigational Links*/
+
+#Navigational-container div {
+    position: absolute;
+    right: 12em;
+    top: 0;
+}
+
+#Navigational-container div .link {
+    color: white;
+    text-decoration: none;
+}
+
+#Navigational-container div .link:hover {
+    color: yellow;
+    transition: ease-in 1ms;
+}
+
+#Navigational-container #bars {
+    position: absolute;
+    right: 5em;
+    display: none;
+}
+
+
+/*End of Navigational Links */
+
+#Services-offered {
+    background-color: white;
+    height: 50vh;
+    background-size: cover;
+    margin-top: 8vh;
+}
+
+#Services-image {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#Services-image #read-more {
+    margin-top: 10%;
+    font-size: 22px;
+    color: rgb(46, 10, 206);
+}
+
+
+/* The image divider */
+
+#image-divider {
+    background-image: url('../images/blob-1594916646160@1x.jpg');
+    height: 60vh;
+    background-size: contain;
+}
+
+#About-us {
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+}
+
+.Contact-Us {
+    background-color: rgba(4, 1, 15, 0.767);
+}
+
+.Contact-Us h4 {
+    color: white;
+}
+
+.Contact-Us #form {
+    display: flex;
+}
+
+
+/* Building responsiveness on Tablets */
+
+@media screen and (max-width: 798px) {
+    div #header-Responsive li {
+        display: none;
+    }
+    /* styling  for images section on mobilephones*/
+    #Gallery-Section #image-container1 img {
+        max-width: 10em;
+        max-height: 7em;
+    }
+    #Gallery-Section #image-container2 img {
+        max-width: 10em;
+        max-height: 7em;
+    }
+    #Navigational-container div {
+        max-height: 15px;
+    }
+    #Navigational-container div .link {
+        display: block;
+        position: relative;
+    }
+    #Navigational-container #bars {
+        display: block;
+        position: absolute;
+        top: 1em;
+    }
+}
+
+
+/* Building responsiveness on phones */
+
+@media screen and (max-width: 798px) {
+    div #header-Responsive li {
+        display: none;
+    }
+    .container .Wrapper div {
+        font-size: 12px;
+    }
+    /* styling  for images section on smaller screens*/
+    #Gallery-Section #image-container1 img {
+        max-width: 10em;
+    }
+    #Gallery-Section #image-container2 img {
+        max-width: 10em;
+    }
+    /*The tutorials images responsiveness*/
+    #Services-image div img {
+        width: 110px;
+    }
+}

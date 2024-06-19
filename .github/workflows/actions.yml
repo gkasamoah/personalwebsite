@@ -1,0 +1,12 @@
+on: 
+    push
+jobs:
+    build:
+        runs-on:
+            ubuntu-latest
+        steps:
+        - name: display hello
+          run: echo "hello"
+
+
+   

@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(0, 0, 0, 0.829);
+    height: 100%;
+}
+#first-section{
+    display: grid;
+    grid-template-columns: 50%  50%;
+    column-gap: 20px;
+    grid-template-rows: 100px 100px;
+}
+#first-section-item-one h1{
+ color: white;
+}
+
+
+#personal-picture{
+    height: 60vh;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:576px) {
+    #first-section{
+        display: grid;
+      grid-template-columns:100%;
+      grid-template-rows: 50% 50%;
+    }
+   
+    
+  }

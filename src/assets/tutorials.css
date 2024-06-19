@@ -1,0 +1,24 @@
+#background {
+    background-color: black;
+    height: 80em;
+}
+
+#background #Banner {
+    background-color: rgb(240, 240, 61);
+    height: 10em;
+}
+
+#background #Banner h1 {
+    color: black;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#background #Arduino-section {
+    margin-top: 5em;
+    margin-left: 40%;
+    border-left-width: 2px;
+    border-color: rgb(241, 9, 137);
+    border-left-style: solid;
+    height: 20em;
+}
