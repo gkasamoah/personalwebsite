@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 import Header from '../components/Header';
 import About from './About';
 import { Link } from 'react-router-dom';
-import  "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/components/Homepage.css"
+import  "../components/Homepage.css"
 import  myimage from "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/images/ibescard.jpg"
 import Skills from '../components/Skills';
 import Projects from '../components/Projects';
