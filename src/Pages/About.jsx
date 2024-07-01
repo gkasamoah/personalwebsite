@@ -1,6 +1,6 @@
 import React from 'react';
-import  "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/components/About.css"
-import image2 from "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/images/domenico-loia-hGV2TfOh0ns-unsplash(2).jpg"
+import  "../components/About.css"
+import image2 from "../images/domenico-loia-hGV2TfOh0ns-unsplash(2).jpg"
 
 const About=()=>{
     return(
