@@ -1,12 +1,12 @@
 // src/Skills.js
 import React from 'react';
-import 'C:/Users/ASAMOAH GREGORY/Desktop/project2/src/components/Skills.css'
-import php from "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/images/php.png"
-import java from "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/images/java.png"
-import css from "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/images/css.jpg"
-import react from "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/images/react.png"
-import javascript from "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/images/js.png"
-import mysql from "C:/Users/ASAMOAH GREGORY/Desktop/project2/src/images/mysql.png"
+import '../components/Skills.css'
+import php from "../images/php.png"
+import java from "../images/java.png"
+import css from "../images/css.jpg"
+import react from "../images/react.png"
+import javascript from "../images/js.png"
+import mysql from "../images/mysql.png"
 
 const programmingLanguages = [
   { name: 'PHP', image: php },
