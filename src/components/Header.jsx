@@ -1,6 +1,6 @@
 // src/Header.js
 import React, { useState } from 'react';
-import 'C:/Users/ASAMOAH GREGORY/Desktop/project2/src/components/Header.css';
+import '../components/Header.css';
 import "react-icons/";
 
 const Header = () => {
